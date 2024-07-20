@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* index.css */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+.dark input, .dark .rounded-sm, .dark .border, .dark .shadow-sm, .dark p, .dark nav, .dark h2, .dark h3 {
+  background-color: #0e0d0d;
+  color: white;
+  border-color: #444;
+}
+
+.dark .text-gray-800 {
+  color: #bbb;
+}
+
+.light input, .light .light .rounded-lg, .light .border, .light .shadow-lg {
+  background-color: white;
+  color: black;
+  border-color: #ccc;
+}
+
+.light .text-gray-800 {
+  color: #333;
+}
+
